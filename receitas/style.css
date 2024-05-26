@@ -127,7 +127,7 @@
     transform: translateX(-120px);
   }
   
-  .section-content p {
+  .section-content {
     max-width: 500px;
     color: #fff;
     font-family: sans-serif;
@@ -135,7 +135,7 @@
     margin: 20px 0;
   }
   
-  .coffee-container {
+  .meal-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -143,12 +143,11 @@
     margin-top: 10rem;
   }
   
-  .content-section p {
+  .content-section {
     max-width: 500px;
   }
   
   .img-container {
-    align-items: self-end;
     width: 500px;
     height: 400px;
   }
@@ -165,13 +164,13 @@
     font-weight: normal;
   }
   
-  .content-section p {
+  .content-section {
     color: white;
     margin-top: 20px;
     font-family: sans-serif;
   }
   
-  .products {
+  .produtos {
     margin-top: 5rem;
   }
   
@@ -212,12 +211,12 @@
   }
   
   .img-one {
-    background: url(img/salada2.jpg);
+    background: url(img/salmon.jpg);
     background-position: center;
     background-size: cover;
   }
   .img-two {
-    background: url(img/salada2.jpg);
+    background: url(img/vegan.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -233,7 +232,7 @@
     margin-top: 50px;
   }
   
-  .card .items p {
+  .card .items {
     color: #fff;
     margin: 20px 0;
     font-family: sans-serif;
@@ -260,7 +259,7 @@
     margin-bottom: 20px;
   }
   
-  footer p {
+  footer {
     line-height: 25px;
   }
   
@@ -288,15 +287,15 @@
       font-size: 2.5rem;
     }
   
-    #our-story {
+    #nossa-historia {
       text-align: center;
     }
   
-    #our-story .title {
+    #nossa-historia .title {
       transform: translateX(50px);
     }
   
-    #our-story .line {
+    #nossa-historia .line {
       display: none;
     }
   
@@ -304,13 +303,13 @@
       text-align: center;
     }
   
-    #our-story .img-container .img {
+    #nossa-historia .img-container .img {
       width: 70%;
       text-align: center;
       margin: 0 auto;
     }
   
-    .coffee-container .img-container {
+    .meal-container .img-container {
       margin-top: 5rem;
       width: 50%;
     }
