@@ -101,7 +101,7 @@
   .img {
     width: 400px;
     height: 400px;
-    background: url(img/lamen2.jpg);
+    background: url(img/lamen.jpg);
     background-position: right;
     background-size: cover;
   }
@@ -114,6 +114,8 @@
   .title {
     font-family: "Playfair Display SC", serif;
     font-size: 4rem;
+    justify-content: left;
+    align-items: left;
     color: #fff;
     transform: translateX(-100px);
   }
