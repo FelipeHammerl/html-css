@@ -102,13 +102,13 @@
     width: 400px;
     height: 400px;
     background: url(img/lamen2.jpg);
-    background-position: center;
+    background-position: right;
     background-size: cover;
   }
   
   .title-style {
     display: flex;
-    align-items: center;
+    align-items: left;
   }
   
   .title {
