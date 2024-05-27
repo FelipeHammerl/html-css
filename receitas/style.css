@@ -218,7 +218,11 @@
   }
   
   .img-one {
+<<<<<<< Updated upstream
     background: url(img/salmon.jpg);
+=======
+    background: url(img/macarrão.jpg);
+>>>>>>> Stashed changes
     background-position: center;
     background-size: cover;
   }
