@@ -95,18 +95,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
   }
   
   .img {
     width: 400px;
     height: 400px;
     background: url(img/lamen.jpg);
-    background-position: right;
+    background-position: left;
+    align-items: left;
     background-size: cover;
   }
   
-  .title-style {
+  .title-style-right {
+    display: flex;
+    align-items: right;
+  }
+
+  .title-style-left {
     display: flex;
     align-items: left;
   }
@@ -114,8 +119,8 @@
   .title {
     font-family: "Playfair Display SC", serif;
     font-size: 4rem;
-    justify-content: left;
-    align-items: left;
+    justify-content: right;
+    align-items: right;
     color: #fff;
     transform: translateX(-100px);
   }
@@ -159,6 +164,8 @@
   
   .title-two {
     font-size: 3rem;
+    justify-content: left;
+    align-items: left;
     color: #fff;
     font-family: "Playfair Display SC", serif;
     font-weight: normal;
