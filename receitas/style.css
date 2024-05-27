@@ -90,39 +90,31 @@
     transform: translateY(60px);
   }
   
-  #nossa-historia {
-    margin-top: 15%;
+  .nossa-historia {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
   }
   
   .img {
     width: 400px;
     height: 400px;
-    background: url(img/lamen.jpg);
-    background-position: left;
-    align-items: left;
-    background-size: cover;
   }
   
-  .title-style-right {
+  .title-style {
     display: flex;
-    align-items: right;
-  }
-
-  .title-style-left {
-    display: flex;
-    align-items: left;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   
   .title {
-    font-family: "Playfair Display SC", serif;
     font-size: 4rem;
-    justify-content: right;
-    align-items: right;
     color: #fff;
-    transform: translateX(-100px);
+    font-family: "Playfair Display SC", serif;
+    font-weight: normal;
   }
   
   .line {
@@ -133,11 +125,9 @@
   }
   
   .section-content {
-    max-width: 500px;
     color: #fff;
+    margin-top: 20px;
     font-family: sans-serif;
-    line-height: 20px;
-    margin: 20px 0;
   }
   
   .meal-container {
@@ -164,8 +154,6 @@
   
   .title-two {
     font-size: 3rem;
-    justify-content: left;
-    align-items: left;
     color: #fff;
     font-family: "Playfair Display SC", serif;
     font-weight: normal;
@@ -218,11 +206,7 @@
   }
   
   .img-one {
-<<<<<<< Updated upstream
     background: url(img/salmon.jpg);
-=======
-    background: url(img/macarrão.jpg);
->>>>>>> Stashed changes
     background-position: center;
     background-size: cover;
   }
